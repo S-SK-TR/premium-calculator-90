@@ -7,27 +7,27 @@ Mevcut projeyi modern UI/UX, güçlü mimari ve tam PWA (Progressive Web App) de
 
 # 🏗️ Faz 1 — PWA & Core Altyapı
 ## 1.1 Progressive Web App (PWA)
-- [x] **Manifest**: `public/manifest.json` yapılandırması (premium ikonlar, tema renkleri).
-- [x] **Service Worker**: Vite PWA plugin ile çevrimdışı çalışma ve cache yönetimi.
-- [x] **Installable**: Tarayıcıda "Uygulamayı Yükle" desteği ve mobil uyumluluk.
+- [ ] **Manifest**: `public/manifest.json` yapılandırması (premium ikonlar, tema renkleri).
+- [ ] **Service Worker**: Vite PWA plugin ile çevrimdışı çalışma ve cache yönetimi.
+- [ ] **Installable**: Tarayıcıda "Uygulamayı Yükle" desteği ve mobil uyumluluk.
 
 ## 1.2 Tasarım Sistemi (Design Tokens)
-- [x] **Modern Typography**: Outfit (başlıklar) ve Inter (gövde) fontları.
-- [x] **Color Palette**: HSL tabanlı, derinlik hissi veren dark/light mode renkleri.
-- [x] **Tailwind Config**: Glassmorphism, glow efektleri ve custom shadow tanımları.
+- [ ] **Modern Typography**: Outfit (başlıklar) ve Inter (gövde) fontları.
+- [ ] **Color Palette**: HSL tabanlı, derinlik hissi veren dark/light mode renkleri.
+- [ ] **Tailwind Config**: Glassmorphism, glow efektleri ve custom shadow tanımları.
 
 ---
 
 # 🎨 Faz 2 — Premium UI & UX (Visual Excellence)
 ## 2.1 Glassmorphism & Modern Layout
-- [x] **AppShell**: Sayfa geçişlerini yöneten, gradient arka planlı ana iskelet.
-- [x] **Navbar**: Blur efektli, şeffaf ve scroll duyarlı premium navigasyon.
-- [x] **Reusable UI**: Button, Card ve Modal bileşenlerinin glassmorphism ile tasarımı.
+- [ ] **AppShell**: Sayfa geçişlerini yöneten, gradient arka planlı ana iskelet.
+- [ ] **Navbar**: Blur efektli, şeffaf ve scroll duyarlı premium navigasyon.
+- [ ] **Reusable UI**: Button, Card ve Modal bileşenlerinin glassmorphism ile tasarımı.
 
 ## 2.2 Dinamik Animasyonlar (Framer Motion)
-- [x] **Page Transitions**: Sayfalar arası yumuşak slide ve fade efektleri.
-- [x] **Micro-interactions**: Etkileşimli öğelerde (buton, input) dokunsal geri bildirim hissi veren animasyonlar.
-- [x] **Staggered Entry**: Liste ve kartların sırayla ekrana gelme animasyonları.
+- [ ] **Page Transitions**: Sayfalar arası yumuşak slide ve fade efektleri.
+- [ ] **Micro-interactions**: Etkileşimli öğelerde (buton, input) dokunsal geri bildirim hissi veren animasyonlar.
+- [ ] **Staggered Entry**: Liste ve kartların sırayla ekrana gelme animasyonları.
 
 ---
 

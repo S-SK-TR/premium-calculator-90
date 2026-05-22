@@ -13,10 +13,6 @@ Tüm önemli değişiklikler bu dosyada belgelenir.
 - Workflow'lar oluşturuldu (setup, dev, test, deploy, review)
 - Proje kuralları ve standartlar belgelendi
 - Collection yapıları oluşturuldu (prompts, templates)
-- Premium hesap makinesi özellikleri eklendi (temel hesap makinesi, bilimsel hesap makinesi, geçmiş, birim dönüştürücü, grafik)
-- PWA desteği eklendi (manifest.json, service worker, offline mod)
-- Dark/light tema desteği eklendi
-- Mobil uyumluluk iyileştirmeleri yapıldı
 
 ### Changed
 - (henüz yok)

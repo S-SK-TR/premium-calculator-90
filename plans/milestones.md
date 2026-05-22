@@ -5,15 +5,15 @@
 ---
 
 ## Milestone 1: Foundation (v0.1.0)
-**Hedef Tarih**: [TAMAMLANMA TARİHİ]
-**Durum**: ✅ Complete
+**Hedef Tarih**: YYYY-MM-DD
+**Durum**: ⬜ Not Started | 🟡 In Progress | ✅ Complete
 
 ### Hedefler
-- [x] Proje yapısı kuruldu
-- [x] Temel altyapı tamamlandı
-- [x] CI/CD pipeline aktif
-- [x] İlk testler yazıldı
-- [x] Temel dokümantasyon hazır
+- [ ] Proje yapısı kuruldu
+- [ ] Temel altyapı tamamlandı
+- [ ] CI/CD pipeline aktif
+- [ ] İlk testler yazıldı
+- [ ] Temel dokümantasyon hazır
 
 ### Kabul Kriterleri
 - Proje build ediliyor ve testler geçiyor
@@ -22,12 +22,12 @@
 ---
 
 ## Milestone 2: MVP (v0.2.0)
-**Hedef Tarih**: [HEDEF TARİH]
-**Durum**: 🟡 In Progress
+**Hedef Tarih**: YYYY-MM-DD
+**Durum**: ⬜ Not Started
 
 ### Hedefler
-- [x] Core feature'lar implement edildi
-- [x] Temel kullanıcı akışları çalışıyor
+- [ ] Core feature'lar implement edildi
+- [ ] Temel kullanıcı akışları çalışıyor
 - [ ] Integration testleri yazıldı
 - [ ] API dokümantasyonu tamamlandı
 
@@ -38,7 +38,7 @@
 ---
 
 ## Milestone 3: Beta (v0.5.0)
-**Hedef Tarih**: [HEDEF TARİH]
+**Hedef Tarih**: YYYY-MM-DD
 **Durum**: ⬜ Not Started
 
 ### Hedefler
@@ -54,7 +54,7 @@
 ---
 
 ## Milestone 4: Release (v1.0.0)
-**Hedef Tarih**: [HEDEF TARİH]
+**Hedef Tarih**: YYYY-MM-DD
 **Durum**: ⬜ Not Started
 
 ### Hedefler
