@@ -3,24 +3,30 @@
 @tailwind utilities;
 
 :root {
-  --bg-base: theme(colors.background);
-  --bg-surface: theme(colors.card);
-  --bg-elevated: theme(colors.secondary);
-  --border: theme(colors.border);
-  --text-primary: theme(colors.text);
-  --text-muted: theme(colors.text / 0.7);
-  --brand-500: theme(colors.accent);
+  --bg-primary: #1E293B;
+  --bg-secondary: #334155;
+  --text-primary: #F8FAFC;
+  --accent: #3B82F6;
+  --border: #334155;
   --font-sans: 'Inter', system-ui, sans-serif;
 }
 
+.dark {
+  --bg-primary: #F8FAFC;
+  --bg-secondary: #E2E8F0;
+  --text-primary: #1E293B;
+  --accent: #3B82F6;
+  --border: #E2E8F0;
+}
+
 body {
-  @apply bg-[var(--bg-base)] text-[var(--text-primary)] font-sans;
+  @apply bg-[var(--bg-primary)] text-[var(--text-primary)] font-sans;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 .glass-card {
-  @apply bg-[var(--bg-surface)] backdrop-blur-md border border-[var(--border)] rounded-2xl shadow-lg;
+  @apply bg-[var(--bg-secondary)]/80 backdrop-blur-md border border-[var(--border)]/30 rounded-2xl shadow-lg;
 }
 
 ::-webkit-scrollbar {
@@ -33,9 +39,9 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  @apply bg-[var(--border)] rounded-full;
+  @apply bg-[var(--border)]/50 rounded-full;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  @apply bg-[var(--text-muted)];
+  @apply bg-[var(--border)]/70;
 }

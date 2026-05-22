@@ -1,0 +1,88 @@
+{
+  "calculator": {
+    "basic": {
+      "addition": {
+        "operands": [5, 3],
+        "result": 8
+      },
+      "subtraction": {
+        "operands": [10, 4],
+        "result": 6
+      },
+      "multiplication": {
+        "operands": [7, 6],
+        "result": 42
+      },
+      "division": {
+        "operands": [20, 5],
+        "result": 4
+      }
+    },
+    "scientific": {
+      "sin": {
+        "input": 90,
+        "result": 1
+      },
+      "cos": {
+        "input": 0,
+        "result": 1
+      },
+      "log": {
+        "input": 100,
+        "result": 2
+      }
+    }
+  },
+  "unitConverter": {
+    "length": {
+      "metersToFeet": {
+        "input": 10,
+        "result": 32.8084
+      },
+      "feetToMeters": {
+        "input": 50,
+        "result": 15.24
+      }
+    },
+    "temperature": {
+      "celsiusToFahrenheit": {
+        "input": 25,
+        "result": 77
+      },
+      "fahrenheitToCelsius": {
+        "input": 98.6,
+        "result": 37
+      }
+    }
+  },
+  "graph": {
+    "linear": {
+      "points": [
+        { "x": 0, "y": 0 },
+        { "x": 1, "y": 1 },
+        { "x": 2, "y": 2 }
+      ]
+    },
+    "quadratic": {
+      "points": [
+        { "x": -1, "y": 1 },
+        { "x": 0, "y": 0 },
+        { "x": 1, "y": 1 }
+      ]
+    }
+  },
+  "history": [
+    {
+      "operation": "addition",
+      "operands": [5, 3],
+      "result": 8,
+      "timestamp": "2023-11-15T10:30:00Z"
+    },
+    {
+      "operation": "sin",
+      "operands": [90],
+      "result": 1,
+      "timestamp": "2023-11-15T11:15:00Z"
+    }
+  ]
+}
