@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-base: theme(colors.background);
+  --bg-surface: theme(colors.card);
+  --bg-elevated: theme(colors.secondary);
+  --border: theme(colors.border);
+  --text-primary: theme(colors.text);
+  --text-muted: theme(colors.text / 0.7);
+  --brand-500: theme(colors.accent);
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+body {
+  @apply bg-[var(--bg-base)] text-[var(--text-primary)] font-sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glass-card {
+  @apply bg-[var(--bg-surface)] backdrop-blur-md border border-[var(--border)] rounded-2xl shadow-lg;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-[var(--border)] rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-[var(--text-muted)];
+}
